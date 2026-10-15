@@ -36,7 +36,7 @@ Follow the [awesome manifesto](https://github.com/sindresorhus/awesome/blob/main
 
 - Tools are in A to Z order under each sub-heading. The awesome rule adds new items at the bottom, which causes merge conflicts when many students edit at the same time.
 - Section headings use sentence case (`## Photo and video`). The main heading stays in title case.
-- The description starts with the cost when the tool has one: Free, Freemium, Paid or Open-source. Places and hardware have no cost word.
+- Mention the cost only when it is a selling point. Examples: a free or open-source tool next to paid alternatives (Blender, GIMP), or a free plan for students (Fusion). Do not write "Paid" or "Freemium". `contributing.md` has no cost rule; check this point when you review a pull request.
 - Sections have `###` sub-headings. A sub-heading name can repeat in different sections (for example `Spaces`, `Live coding`).
 - HEAD and HES-SO places go in the section that fits, with "at HEAD" or "HES-SO" in the description.
 - Missing links and techniques with no tool are GitHub issues with the label `good first issue`, not README entries.

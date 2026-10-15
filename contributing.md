@@ -4,7 +4,6 @@
 
 - Add one tool in each pull request.
 - Use this format: `- [Name](https://link) - Description.`
-- Start the description with the cost, if the tool has one: Free, Freemium, Paid or Open-source.
 - Write the description as one short sentence. End it with a period.
 - Put the tool under the correct sub-heading, in A to Z order.
 - If no sub-heading fits, add a new `###` sub-heading.
