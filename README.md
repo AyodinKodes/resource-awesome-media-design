@@ -87,6 +87,7 @@ Tech Corner · 2026–2027
 ### Live coding
 
 - [P5 Live](https://teddavis.org/p5live/) - Live coding environment for p5.js.
+- [Tidal Cycles](https://tidalcycles.org/) - Live coding environment for music patterns, written in Haskell and ported to the browser later as Strudel.
 
 ### Projection mapping
 
