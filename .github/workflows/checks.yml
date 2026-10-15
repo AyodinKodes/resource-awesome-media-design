@@ -23,7 +23,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+      - uses: actions/cache@v6
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.sha }}
+          restore-keys: lychee-
       - uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --max-retries 2 --accept '200..=299,403,429' README.md contributing.md
+          args: >-
+            --no-progress --cache --max-cache-age 1d
+            --timeout 30 --max-retries 3 --retry-wait-time 5
+            --accept '200..=299,403,429'
+            README.md contributing.md
           fail: true
