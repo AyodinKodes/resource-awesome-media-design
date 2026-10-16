@@ -304,6 +304,7 @@ Tech Corner · 2026–2027
 - [The Context Course](https://huggingface.co/learn/context-course/unit0/introduction) - Hugging Face course on context for AI coding agents.
 - [The Linux Command Line](https://linuxcommand.org/tlcl.php) - Book on the command line by William Shotts, free to read online.
 - [The Unix Shell](https://swcarpentry.github.io/shell-novice/) - Software Carpentry lesson on the shell.
+- [The Odin Project](https://www.theodinproject.com/paths) - an open-source curriculum for learning web development (HTML-CSS-JavaScript foundations and more advanced courses). 
 
 ### References
 
